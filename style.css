@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:400,500,600,700&display=swap');
+
+:root {
+    --bg-color: #1d1e20;
+    --text-color: #ffffff;
+    --accent-color: #49aa75;
+	/* Font weight */
+
+	--montserrat_regular: 400;
+	--montserrat_medium: 500;
+	--montserrat_semi_bold: 600;
+	--montserrat_bold: 700;
+
+
+	--lato_light: 300;
+	--lato_regular: 400;
+	--lato_bold: 700;
+}
+
+html, body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+	font-family: Montserrat, Lato, Calibri;
+}
+
+.accent-color {
+    color: var(--accent-color)
+}
+
+.body-inner {
+	width: 100%;
+	max-width: 60rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: inherit;
+}
+
+.content {
+    width: 100%;
+	max-width: 55rem;
+    margin: 0 auto;
+    height: inherit;
+}
